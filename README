@@ -1,0 +1,18 @@
+# JSON Sorter Service
+
+## Running the Service:
+
+### With Node.js:
+1. Ensure you have Node.js and npm installed (LTS is recommended).
+2. Clone this repository and navigate to the directory if is necessary.
+3. Run `npm install`.
+4. Run `npm start`.
+5. Service starts on `http://localhost:3000`.
+6. For run the test Run `npm test`.
+
+### With Docker:
+1. Ensure you have Docker installed.
+2. Clone this repository and navigate to the directory.
+3. Build the docker image: `docker build -t json-sorter .`.
+4. Run the service: `docker run -p 3000:3000 json-sorter`.
+5. Service starts on `http://localhost:3000`.
